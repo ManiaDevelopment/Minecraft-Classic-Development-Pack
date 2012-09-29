@@ -64,8 +64,8 @@ How to use:
 
 Credits:
 ========
-Oliver Yasuna (oyasunadev)
-Steveice10
+- Oliver Yasuna (oyasunadev)
+- Steveice10
 
 Changelog:
 1.0 - Initial release.

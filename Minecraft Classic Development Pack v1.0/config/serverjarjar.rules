@@ -27,12 +27,12 @@ rule com.mojang.minecraft.server.b com.mojang.minecraft.server.LogHandler
 rule com.mojang.minecraft.server.c com.mojang.minecraft.server.LogFormatter
 rule com.mojang.minecraft.server.d com.mojang.minecraft.server.HeartbeatManager
 rule com.mojang.minecraft.server.e com.mojang.minecraft.server.ConsoleInput
-rule com.mojang.minecraft.server.f com.mojang.minecraft.server.UNKNOWN0
-rule com.mojang.minecraft.server.g com.mojang.minecraft.server.UNKNOWN1
-rule com.mojang.minecraft.server.h com.mojang.minecraft.server.UNKNOWN2
-rule com.mojang.minecraft.server.i com.mojang.minecraft.server.UNKNOWN3
+rule com.mojang.minecraft.server.f com.mojang.minecraft.server.PlayerManager
+rule com.mojang.minecraft.server.g com.mojang.minecraft.server.UNKNOWN0
+rule com.mojang.minecraft.server.h com.mojang.minecraft.server.NetworkManager
+rule com.mojang.minecraft.server.i com.mojang.minecraft.server.SaltGenerator
 rule com.mojang.minecraft.a com.mojang.minecraft.AvailableBlockType
-rule com.mojang.minecraft.b com.mojang.minecraft.UNKNOWN1
+rule com.mojang.minecraft.b com.mojang.minecraft.Vector3DCreator
 rule a.a com.mojang.util.MathHelper
 rule a.** com.mojang.util.@1
 rule com.mojang.a.a com.mojang.net.NetworkHandler
