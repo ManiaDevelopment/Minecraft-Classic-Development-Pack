@@ -71,7 +71,7 @@ bin\7za.exe x temp\fernflower\minecraft-serverjjrg.jar -ooutput\server\src
 goto end
 
 :end
-rd /s /q temp
+::rd /s /q temp
 
 if not exist build (
 	mkdir build

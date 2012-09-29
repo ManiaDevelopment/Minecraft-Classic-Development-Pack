@@ -1,0 +1,12 @@
+.class ** protected
+.method;private ** *
+.field;private ** *
+.attribute SourceFile
+.attribute LocalVariableTable
+.attribute LineNumberTable
+.attribute Deprecated
+.attribute Signature
+.attribute LocalVariableTypeTable
+.attribute EnclosingMethod
+.attribute EnclosingMethod
+.option Annotations
