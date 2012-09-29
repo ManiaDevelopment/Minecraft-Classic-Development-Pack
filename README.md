@@ -34,23 +34,29 @@ Prerequisites:
 How to use:
 ===========
 1) Prepare the files:
-- Copy the contents of the "Minecraft" folder from your TEMP folder.
-	- Ex: C:\Users\Your Name\AppData\Local\Temp\www.minecraft.net\Minecraft\
-	- Do not copy the folder, copy the contents.
-- Paste them in the "jars" folder in your MCDP folder.
+- Copy the minecraft.jar in the "Minecraft" folder from your TEMP folder.
+	- Ex: C:\Users\Your Name\AppData\Local\Temp\www.minecraft.net\Minecraft\minecraft.jar
+	- Do not copy the folder, copy minecraft.jar.
+- Paste it in the "jars/client" folder in your MCDP folder.
+- Copy the minecraft-server.jar from the zip you downloaded from Minecraft.net.
+	- http://s3.amazonaws.com/MinecraftDownload/minecraft_classic_server.zip
+- Paste it in the "jars/server" folder in your MCDP folder.
 
 2) Decompilation:
 - Start the "decompile.bat" script in your MCDP folder.
 
 3) Modding:
-- Modify the source code in "output\client\src" folder.
+- Modify the source code in "output\client\src" folder for client.
+- Modify the source code in "output\server\src" folder for server.
 
 4) Recompiling:
-- Copy all the modified classes into "build" in your MCDP folder.
+- Copy all the modified client classes into "build\client" in your MCDP folder.
+- Copy all the modified server classes into "build\server" in your MCDP folder.
 - Start the "recompile.bat" script in your MCDP folder.
 
 5) Testing:
-- Start the "startclient.bat" script in your MCDP folder.
+- For client start the "startclient.bat" script in your MCDP folder.
+- For server start the "startserver.bat" script in your MCDP folder.
 
 6) Reobfuscation:
 - Start the "reobfuscate.bat" script in your MCDP folder.
